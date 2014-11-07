@@ -2,7 +2,7 @@
 execute pathogen#infect()
 
 " nice colorsheme
-colorscheme ir_black 
+colorscheme ir_black
 
 " some general options
 syntax on
@@ -12,9 +12,8 @@ set fenc=utf-8
 set termencoding=utf-8
 set number
 set showmatch
-
-
-"map <Leader>n <plug>NERDTreeTabsToggle<CR>
+set autoindent
+set smartindent
 
 " open a tab on vim startup
 let g:nerdtree_tabs_open_on_console_startup=1
@@ -41,4 +40,4 @@ nnoremap <F2> gt
 au BufNewFile,BufRead *.php set filetype=php
 
 " enable mouse
-set mouse=a 
+set mouse=a
